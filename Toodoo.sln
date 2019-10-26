@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooDoo.UI", "src\TooDoo.UI\TooDoo.UI.csproj", "{28F0D9F4-63EE-4B47-B732-82D471B80B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71CE40A0-10A4-4DE0-B882-87669860963C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooDoo.Models", "src\TooDoo.Models\TooDoo.Models.csproj", "{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooDoo.Repositories", "src\TooDoo.Repositories\TooDoo.Repositories.csproj", "{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{601C52BF-B65D-4F14-B2A4-B821D8AC373A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooDoo.Repositories.Tests", "tests\TooDoo.Repositories.Tests\TooDoo.Repositories.Tests.csproj", "{AF263439-0CCC-4297-98A9-ADD8CA15305D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F0D9F4-63EE-4B47-B732-82D471B80B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F0D9F4-63EE-4B47-B732-82D471B80B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F0D9F4-63EE-4B47-B732-82D471B80B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F0D9F4-63EE-4B47-B732-82D471B80B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF263439-0CCC-4297-98A9-ADD8CA15305D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF263439-0CCC-4297-98A9-ADD8CA15305D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF263439-0CCC-4297-98A9-ADD8CA15305D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF263439-0CCC-4297-98A9-ADD8CA15305D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28F0D9F4-63EE-4B47-B732-82D471B80B38} = {71CE40A0-10A4-4DE0-B882-87669860963C}
+		{8677A01F-0FF6-4BCD-9152-00DBCE9E1EC2} = {71CE40A0-10A4-4DE0-B882-87669860963C}
+		{691E4BEF-B9C6-44FB-8E79-7C70E3CECD98} = {71CE40A0-10A4-4DE0-B882-87669860963C}
+		{AF263439-0CCC-4297-98A9-ADD8CA15305D} = {601C52BF-B65D-4F14-B2A4-B821D8AC373A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0C4FF13-FC52-47D1-A0EE-8B01E0D14342}
+	EndGlobalSection
+EndGlobal
