@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using TooDoo.Models.Exceptions;
 
 namespace TooDoo.Models
 {
@@ -9,7 +6,7 @@ namespace TooDoo.Models
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public DateTime Start { get; set; }
+        public DateTime DoTime { get; set; }
 
         public DateTime CreatedAt { get; }
         public DateTime? CompletedAt { get; private set; }
@@ -20,11 +17,11 @@ namespace TooDoo.Models
 
         public override string ToString() => $"{Title}- {Description}";
 
-        public ToDo(string title, DateTime start, string description = "")
+        public ToDo(string title, DateTime doTime, string description = "")
         {
             Title = title;
             Description = description;
-            Start = start;
+            DoTime = doTime;
         }
     }
 }

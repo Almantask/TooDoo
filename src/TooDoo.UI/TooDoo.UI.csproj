@@ -6,4 +6,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DayDetails\" />
+    <Folder Include="Day\" />
+    <Folder Include="Month\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="ToDo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TooDoo.Models\TooDoo.Models.csproj" />
+  </ItemGroup>
+
 </Project>

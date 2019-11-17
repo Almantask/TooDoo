@@ -4,9 +4,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TooDoo.UI.Day"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+             mc:Ignorable="d">
+    <Border BorderBrush="#FFD4D4D4" BorderThickness="1">
+        <Grid Height="58" Width="65" Background="White">
+            <Label Content="Day" FontFamily="Comic Sans MS" FontSize="10" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-4,-4,0,0"/>
+            <Label Content="1" FontFamily="Comic Sans MS" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,5,0,1" FontSize="25"/>
+        </Grid>
+    </Border>
 </UserControl>

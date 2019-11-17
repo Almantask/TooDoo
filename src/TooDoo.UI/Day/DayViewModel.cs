@@ -4,7 +4,15 @@ using System.Text;
 
 namespace TooDoo.UI.Day
 {
-    class DayViewModel
+    public class DayViewModel
     {
+        public DayOfWeek DayOfWeek { get; }
+        public int DayOfMonth { get; }
+
+        public DayViewModel(DateTime dateTime)
+        {
+            DayOfWeek = dateTime.DayOfWeek;
+            DayOfMonth = dateTime.Day;
+        }
     }
 }

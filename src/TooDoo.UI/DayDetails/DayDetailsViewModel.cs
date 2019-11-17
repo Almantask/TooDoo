@@ -4,7 +4,8 @@ using System.Text;
 
 namespace TooDoo.UI.Day.DayDetails
 {
-    class DayDetailsViewModel
+    public class DayDetailsViewModel
     {
+        public Models.ToDo Todo { get; set; }
     }
 }

@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TooDoo.UI
+namespace TooDoo.UI.Month
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MonthView.xaml
     /// </summary>
-    public partial class MainWindow : Page
+    public partial class MonthView : UserControl
     {
-        public MainWindow()
+        public MonthView()
         {
             InitializeComponent();
         }

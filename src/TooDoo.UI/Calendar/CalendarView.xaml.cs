@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TooDoo.UI.Callendar
+namespace TooDoo.UI.Calendar
 {
     /// <summary>
-    /// Interaction logic for CallendarView.xaml
+    /// Interaction logic for CalendarView.xaml
     /// </summary>
-    public partial class CallendarView : UserControl
+    public partial class CalendarView : UserControl
     {
-        public CallendarView()
+        public CalendarView()
         {
             InitializeComponent();
         }
